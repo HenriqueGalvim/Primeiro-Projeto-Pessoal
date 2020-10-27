@@ -1,0 +1,120 @@
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans&display=swap');
+body{
+	background-image: linear-gradient(to top, #2884B3,#5176BD,#6365A6,#665B80,#81678F);
+	background-repeat: no-repeat;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+
+}
+.header{
+	position: fixed;
+	height: 100vh;
+	width: 21vw;
+	background-color: #F64114;
+}
+
+.header  span{
+	display: block;
+	width: 11rem;
+	height: 12rem;
+	border-radius: 50px;
+	margin: 0 auto;
+	transform: translateY(200px);
+	background-color: grey;
+
+}
+.conteudo{
+	height: 100%;
+	margin-left: 30%;
+}
+.conteudo h1{
+	padding-top: 3rem;
+	font-size: 2.2rem;
+	font-weight: 600;
+	font-family: 'Arvo', serif;
+	margin-bottom: 3rem;
+	color:#C8E3D7;
+}
+.conteudo p{
+	width: 60%;
+    color:#C8E3D7;
+	line-height: 1.5rem;
+	text-align: justify;
+	padding-top: 1rem;
+}
+.conteudo p:nth-child(1){
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+.conteudo p:nth-child(2){
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.forms{
+	display: flex;
+	padding-top: 3rem;
+	height: 55.0vh;
+}
+.informacoes{
+	display: none;
+
+}
+#teste{
+	display: flex;
+	margin-bottom: 3rem;
+	margin-right: 2rem;
+}
+#teste2{
+	display: flex;
+}
+input[type="checkbox"]{
+    -webkit-appearance:none;
+    transform: translateY(0.0rem);
+	color: #fff;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 20px;
+	outline: none;
+	border:none;
+	background-color: #fff;
+
+}
+
+input[type="checkbox"]:checked{
+	background-color: red;
+}
+button{
+	color: #fff;
+		margin-left: 2rem;
+	width: 10rem;
+	height: 4rem;
+	border-radius: 20px;
+	outline: none;
+	border:none;
+	background-color: #F50A29;
+}
+.info:active,button:active{
+	background-color: #5E0414;
+}
+input[type="text"]{
+	select:none;
+	width: 10rem;
+	height: 4rem;
+	border:none;
+	outline: none;
+	border-radius: 20px;
+	background-color: #990621;
+	color: #fff;
+	padding: 1rem;
+}
+
+
+
+
