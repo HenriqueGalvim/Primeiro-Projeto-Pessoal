@@ -145,7 +145,7 @@
 
  	.conteudo h1{
  		padding-top: 40%;
-    	margin-left: -28.4%;
+    		margin-left: -30.5%;;
 		background-color: blue;
  	}
  	.conteudo p{
@@ -168,7 +168,7 @@
  	}
  	.forms #teste2{
  		display: flex;
- 		transform: translateX(-24.9%);
+ 		transform: translate(-24.9%,-30%);
     	padding-top: 0;
  	}
  }
