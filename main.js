@@ -43,7 +43,7 @@
 	  	window.open("https://henriquegalvim.github.io/Nivel7/");
 	      }
 	    if (key == chave[15] || key == chave[16]){
-	  	window.open("https://henriquegalvim.github.io/Nivel8/");
+	  	window.open("https://www.google.com.br/");
 	      }
   
   // Abaixo é pela parte de enviar pelo form
