@@ -56,7 +56,7 @@
 	  	window.open("https://henriquegalvim.github.io/Nivel2/");
 	  }
 	  if (submit.value == chave[4] || submit.value == chave[5]){ // ruby
-	  	window.open("https://henriquegalvim.github.io/Nivel3/
+	  	window.open("https://henriquegalvim.github.io/Nivel3/");
 	  }
 	  if (submit.value == chave[6] || submit.value == chave[7]){ // chico
 	  	window.open("https://henriquegalvim.github.io/Nivel4/");
