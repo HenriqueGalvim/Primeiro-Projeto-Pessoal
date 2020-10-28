@@ -72,7 +72,7 @@
 	  	window.open("https://henriquegalvim.github.io/Nivel7/");
 	  }
 	  if (submit.value == chave[15] || submit.value == chave[16]){ // hek
-	  	window.open("https://henriquegalvim.github.io/Nivel8/");
+	  	window.open("https://www.google.com.br/");
 	  }
 	  if(submit.value == ''){
 	  	window.alert("Nenhuma chave foi inserida")
