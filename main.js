@@ -22,7 +22,7 @@
   
   // Abaixo é enviado pelo prompt
    if (key == chave[0] || key == chave[1]){
-  		window.open("https://www.google.com.br/");
+  		window.open("https://henriquegalvim.github.io/Nivel1/");
       } 
 	    if (key == chave[2] || key == chave[3]){
 	  	window.open("https://www.google.com.br/");
@@ -50,7 +50,7 @@
   
   enviar.addEventListener("click", ()=>{  // Os ifs representam a chave de acesso
 	  if (submit.value == chave[0] || submit.value == chave[1]){ //duda
-	  	window.open("https://www.google.com.br/");
+	  	window.open("https://henriquegalvim.github.io/Nivel1/");
 	  }
 	  if (submit.value == chave[2] || submit.value == chave[3]){ //milly
 	  	window.open("https://www.google.com.br/");
