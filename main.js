@@ -18,7 +18,7 @@
 	 			  'boruto','otaku'	
 	 			]; // chaves de acesso
  
-    // let key= window.prompt("Informe sua chave de acesso")
+    let key= window.prompt("Informe sua chave de acesso")
   
   // Abaixo é enviado pelo prompt
    if (key == chave[0] || key == chave[1]){
@@ -43,7 +43,7 @@
 	  	window.open("https://henriquegalvim.github.io/Nivel7/");
 	      }
 	    if (key == chave[15] || key == chave[16]){
-	  	window.open("https://www.google.com.br/");
+	  	window.open("https://henriquegalvim.github.io/Nivel8/");
 	      }
   
   // Abaixo é pela parte de enviar pelo form
@@ -72,7 +72,7 @@
 	  	window.open("https://henriquegalvim.github.io/Nivel7/");
 	  }
 	  if (submit.value == chave[15] || submit.value == chave[16]){ // hek
-	  	window.open("https://www.google.com.br/");
+	  	window.open("https://henriquegalvim.github.io/Nivel8/");
 	  }
 	  if(submit.value == ''){
 	  	window.alert("Nenhuma chave foi inserida")
